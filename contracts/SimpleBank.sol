@@ -8,7 +8,7 @@ pragma solidity >=0.5.16 <0.9.0;
 
 contract SimpleBank {
 
-    mapping (address => uint) private balances ;
+    mapping (address => uint) private balances;
 
     mapping (address => bool) public enrolled;
 
